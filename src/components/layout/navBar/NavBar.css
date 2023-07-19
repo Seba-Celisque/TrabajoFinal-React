@@ -1,0 +1,28 @@
+.navBar {
+  background-color: #333636;
+  size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 85px;
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 1px;
+}
+.logoNavBar a {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+h3,
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.MuiButton-contained {
+  margin: 5px;
+}

@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333636;
+  list-style: none;
+  padding-block: 1rem;
+  color: #ffffff;
+  font-family: "acme";
+  font-size: 25px;
+  font-weight: lighter;
+  margin-top: 25px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}

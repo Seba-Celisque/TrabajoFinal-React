@@ -1,0 +1,39 @@
+.mainContainer {
+  min-height: calc(100vh - 70px - 65px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerItemDetail {
+  max-width: 90%;
+  padding: 0 1rem;
+  margin: 1rem auto;
+  background-color: #ffffff;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.itemDivLeft {
+  padding: 10px;
+  width: 75%;
+}
+
+.itemDivRight {
+  width: 25%;
+  padding: 20px;
+}
+
+.itemDivRight h3 {
+  font-size: 24px;
+  margin-bottom: 22px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.itemDivRight p {
+  display: block;
+  padding: 10px 0;
+}
